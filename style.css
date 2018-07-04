@@ -45,6 +45,10 @@
     font-weight: bold;
     font-family:cursive;
 }
+a {
+    border: 1px solid orange;
+    border-radius:5px;
+}
 #search {
     margin-top :-50px;
     width:700px;
