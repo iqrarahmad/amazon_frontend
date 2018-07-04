@@ -1,6 +1,10 @@
 #wrapper{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+} 
 .container{
     width:100%;
     margin:0;
