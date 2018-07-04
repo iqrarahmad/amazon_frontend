@@ -2,9 +2,9 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 @viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-} 
+    width: device-width ;
+    zoom: 1.0 ;
+  } 
 .container{
     width:100%;
     margin:0;
@@ -64,8 +64,8 @@
     margin-left :652px;
     height:30px;
     border-radius:10px;
-    border : orange;
-    background-color: red;
+    color :yellow;
+    background-color:black;
 }
 #user-menu{
     margin-top :-40px;
@@ -132,15 +132,11 @@ nav a:hover {
     padding-left:10px;
 }
 .catbox{
-    width:250px;
-    height: 250px;
     overflow: hidden;
     position: relative;
-    margin: 0 18 30 0 ;
     float:left;
 }
 .catbox span{
-    width:100%;
     background:rgba(0,0,0,0.6);
     color:white;
     display:block;
@@ -157,10 +153,7 @@ nav a:hover {
     transition:all .5s ease;
 }
 .prod-box{
-    width:230px;
-    height:300px;
     overflow :hidden;
-    margin:0 18 30 0 ;
     position: relative; 
     float:left;
 }
