@@ -160,27 +160,14 @@ a {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color:rgb(100,0,100);}
 
-#login {
-    border:1px red;
-    border-radius : 5px;
-    background:white;
-    color:black;
-    width:40px;
+#googleloginbutton {
+    
+    width:35px;
     height : 23px;
     margin-top:-25px;
-  
     margin-left : 1150px;
-}
-#signup  { 
-    border-radius:5px;
-    border:1px red;
-    background:white;
-    color:black;
-    width:50px;
-    height:22px;
-    margin-top:-23px;
-  
-    margin-left : 1200px;
+    background:green;
+    color:red;
 }
 
 .user-menu{
