@@ -1,12 +1,15 @@
 <html>
-        <head>
-            <title>::ganga::</title>
-            <link rel = "stylesheet" href = "style.css">
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>        </head>
-    <body>
+   <head>
+        <title>::ganga::</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src = "script.js"></script>      
+ </head>
+    <body ng-app = "myApp" ng-controller="myController">
         <div id = "wrapper">
             <div id = "header">
                 <div id = "subheader">
@@ -39,15 +42,27 @@
                         <a href = "#">my wishlist</a>
                         <a href = "#" > my prime</a>
                         <a href = "#"> my videos</a>
-                        <a href = # >my address</a> 
+                        <a href = "#" >my address</a> 
                     </div>
                 </div>
-                <div id = "login">
-                        <a href = "#">login</a>
-                    </div>
-                    <div id = "signup">
-                        <a href = "#">signup</a>
-                    </div>
+                <div id = "googleloginbutton">
+                <input type = "button"  ng-click= "onGoogleLogin()" value = "loginwithgoogle">
+                <h4 >{{gmail.username}}</h4>
+                <h4>{{gmail.email}}</h4>
+                </div>
+            <script src = app.js></script>
+            <script >
+            (function(){
+                var p = documen.createElement('script');
+                p.type= "text/javascript";
+                p.async= true;
+                p.src = 'https://apis.google.com/js/client.js?onload=onLoadFunction';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(p,s);
+            })();
+            
+            </script>
+
             </div>
             <div id = "navigation">
                 <nav>
